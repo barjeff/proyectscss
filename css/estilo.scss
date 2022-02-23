@@ -1,6 +1,5 @@
-.bg-light {
-    --bs-bg-opacity: 1;
-    background-color: rgb(104, 216, 231)!important;
+nav {
+    background-color: rgb(104, 216, 231);
     div {
         div {
             display: flex;
@@ -8,9 +7,25 @@
             ul {
                 li {
                     a {
-                        color: black !important;
                         &:hover {
                             background-color: lightcyan;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+div {
+    div {
+        div {
+            div {
+                div {
+                    .btn {
+                        background-color: rgb(14, 87, 223);
+                        &:hover {
+                            background-color: yellow;
                         }
                     }
                 }
@@ -25,27 +40,11 @@ nav div div ul li a {
     color: rgb(12, 12, 12) !important;
 }
 
-    
-.navbar-collapse {
-display: flex;
-justify-content: center;
-}
-
 color nav
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: rgb(104, 216, 231)!important;
 }*/
-
-#carru {
-    display: flex;
-    justify-content: center;
-}
-
-#carouselExampleControls {
-    width: 70%;
-    min-height: 100%;
-}
 
 footer {
     div {
@@ -59,6 +58,15 @@ footer {
                 height: 70%;
                 width: 70%;
             }
+        }
+    }
+}
+
+.portal {
+    height: 500px;
+    div {
+        .form-control {
+            width: auto;
         }
     }
 }
@@ -77,15 +85,6 @@ main {
     }
 }
 
-.portal {
-    height: 500px;
-    div {
-        .form-control {
-            width: auto;
-        }
-    }
-}
-
 @media screen and (max-width: 420px) {
     #contacto {
         height: auto;
@@ -100,6 +99,16 @@ main {
         height: 300px;
         width: 70%;
     }
+}
+
+#carru {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleControls {
+    width: 70%;
+    min-height: 100%;
 }
 
 #contenedorsobrevalores {

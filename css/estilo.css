@@ -1,23 +1,22 @@
-.bg-light {
-  --bs-bg-opacity: 1;
-  background-color: #68d8e7 !important;
+nav {
+  background-color: #68d8e7;
 }
 
-.bg-light div div {
-  display: -webkit-box;
-  display: -ms-flexbox;
+nav div div {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
-.bg-light div div ul li a {
-  color: black !important;
-}
-
-.bg-light div div ul li a:hover {
+nav div div ul li a:hover {
   background-color: lightcyan;
+}
+
+div div div div div .btn {
+  background-color: #0e57df;
+}
+
+div div div div div .btn:hover {
+  background-color: yellow;
 }
 
 /* color de enlaces li - a
@@ -25,31 +24,11 @@ nav div div ul li a {
     color: rgb(12, 12, 12) !important;
 }
 
-    
-.navbar-collapse {
-display: flex;
-justify-content: center;
-}
-
 color nav
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: rgb(104, 216, 231)!important;
 }*/
-#carru {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#carouselExampleControls {
-  width: 70%;
-  min-height: 100%;
-}
-
 footer div {
   background-color: #aae6f5;
 }
@@ -67,6 +46,14 @@ footer div div img {
   width: 70%;
 }
 
+.portal {
+  height: 500px;
+}
+
+.portal div .form-control {
+  width: auto;
+}
+
 main {
   background-image: url(../img/fondo.png);
 }
@@ -78,51 +65,35 @@ main h1 {
 
 main #contacto {
   height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.portal {
-  height: 500px;
-}
-
-.portal div .form-control {
-  width: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 420px) {
   #contacto {
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   #carouselExampleControls {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     height: 300px;
     width: 70%;
   }
+}
+
+#carru {
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleControls {
+  width: 70%;
+  min-height: 100%;
 }
 
 #contenedorsobrevalores {
@@ -135,13 +106,8 @@ main #contacto {
 }
 
 .form-afiliarmecontenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background: #cbf1f8;
   width: 250px;
   height: auto;
@@ -155,4 +121,3 @@ main #contacto {
 .form-control {
   width: auto;
 }
-/*# sourceMappingURL=estilo.css.map */
