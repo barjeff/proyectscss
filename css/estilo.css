@@ -1,0 +1,158 @@
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #68d8e7 !important;
+}
+
+.bg-light div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-light div div ul li a {
+  color: black !important;
+}
+
+.bg-light div div ul li a:hover {
+  background-color: lightcyan;
+}
+
+/* color de enlaces li - a
+nav div div ul li a {
+    color: rgb(12, 12, 12) !important;
+}
+
+    
+.navbar-collapse {
+display: flex;
+justify-content: center;
+}
+
+color nav
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(104, 216, 231)!important;
+}*/
+#carru {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#carouselExampleControls {
+  width: 70%;
+  min-height: 100%;
+}
+
+footer div {
+  background-color: #aae6f5;
+}
+
+footer div div {
+  text-align: center;
+}
+
+footer div div div:hover {
+  background-color: lightcyan;
+}
+
+footer div div img {
+  height: 70%;
+  width: 70%;
+}
+
+main {
+  background-image: url(../img/fondo.png);
+}
+
+main h1 {
+  line-height: 2em;
+  text-align: center;
+}
+
+main #contacto {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portal {
+  height: 500px;
+}
+
+.portal div .form-control {
+  width: auto;
+}
+
+@media screen and (max-width: 420px) {
+  #contacto {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #carouselExampleControls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 300px;
+    width: 70%;
+  }
+}
+
+#contenedorsobrevalores {
+  background-color: #7bd3ee;
+}
+
+.color {
+  background-color: #6ec7d3;
+  text-align: center;
+}
+
+.form-afiliarmecontenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #cbf1f8;
+  width: 250px;
+  height: auto;
+  border: 5px solid darkcyan;
+}
+
+.datosafiliarme {
+  margin-top: 10px;
+}
+
+.form-control {
+  width: auto;
+}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,129 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(104, 216, 231)!important;
+    div {
+        div {
+            display: flex;
+            justify-content: center;
+            ul {
+                li {
+                    a {
+                        color: black !important;
+                        &:hover {
+                            background-color: lightcyan;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* color de enlaces li - a
+nav div div ul li a {
+    color: rgb(12, 12, 12) !important;
+}
+
+    
+.navbar-collapse {
+display: flex;
+justify-content: center;
+}
+
+color nav
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(104, 216, 231)!important;
+}*/
+
+#carru {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleControls {
+    width: 70%;
+    min-height: 100%;
+}
+
+footer {
+    div {
+        background-color: rgb(170, 230, 245);
+        div {
+            text-align: center;
+            div:hover {
+                background-color: lightcyan;
+            }
+            img {
+                height: 70%;
+                width: 70%;
+            }
+        }
+    }
+}
+
+main {
+    background-image: url(../img/fondo.png);
+    h1 {
+        line-height: 2em;
+        text-align: center;
+    }
+    #contacto {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.portal {
+    height: 500px;
+    div {
+        .form-control {
+            width: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #contacto {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #carouselExampleControls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 70%;
+    }
+}
+
+#contenedorsobrevalores {
+    background-color: rgb(123, 211, 238);
+}
+
+.color {
+    background-color: rgb(110, 199, 211);
+    text-align: center;
+}
+
+.form-afiliarmecontenedor {
+    display: flex;
+    flex-direction: column;
+    background: rgb(203, 241, 248);
+    width: 250px;
+    height: auto;
+    border: 5px solid darkcyan;
+}
+
+.datosafiliarme {
+    margin-top: 10px;
+}
+
+.form-control {
+    width: auto;
+}
