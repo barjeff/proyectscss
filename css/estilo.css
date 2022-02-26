@@ -3,8 +3,12 @@ nav {
 }
 
 nav div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav div div ul li a:hover {
@@ -19,16 +23,6 @@ div div div div div .btn:hover {
   background-color: yellow;
 }
 
-/* color de enlaces li - a
-nav div div ul li a {
-    color: rgb(12, 12, 12) !important;
-}
-
-color nav
-.bg-light {
-    --bs-bg-opacity: 1;
-    background-color: rgb(104, 216, 231)!important;
-}*/
 footer div {
   background-color: #aae6f5;
 }
@@ -47,7 +41,7 @@ footer div div img {
 }
 
 .portal {
-  height: 500px;
+  height: auto;
 }
 
 .portal div .form-control {
@@ -65,30 +59,57 @@ main h1 {
 
 main #contacto {
   height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (max-width: 420px) {
   #contacto {
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #carouselExampleControls {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 300px;
     width: 70%;
   }
+  .imgchica {
+    height: auto;
+    width: auto;
+  }
 }
 
+/* carrusel */
 #carru {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #carouselExampleControls {
@@ -96,28 +117,39 @@ main #contacto {
   min-height: 100%;
 }
 
-#contenedorsobrevalores {
-  background-color: #7bd3ee;
-}
-
+/* page sobre nosotros */
 .color {
-  background-color: #6ec7d3;
+  background-color: #b0e6f7;
   text-align: center;
 }
 
+.sobrenosotroscontenedores {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.imgchica {
+  height: 150px;
+  width: 150px;
+}
+
+/* page afiliados */
 .form-afiliarmecontenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: #cbf1f8;
   width: 250px;
   height: auto;
   border: 5px solid darkcyan;
 }
 
-.datosafiliarme {
-  margin-top: 10px;
+.card {
+  margin-bottom: 50px;
 }
-
-.form-control {
-  width: auto;
-}
+/*# sourceMappingURL=estilo.css.map */

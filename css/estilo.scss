@@ -34,18 +34,6 @@ div {
     }
 }
 
-
-/* color de enlaces li - a
-nav div div ul li a {
-    color: rgb(12, 12, 12) !important;
-}
-
-color nav
-.bg-light {
-    --bs-bg-opacity: 1;
-    background-color: rgb(104, 216, 231)!important;
-}*/
-
 footer {
     div {
         background-color: rgb(170, 230, 245);
@@ -63,7 +51,7 @@ footer {
 }
 
 .portal {
-    height: 500px;
+    height: auto;
     div {
         .form-control {
             width: auto;
@@ -99,7 +87,14 @@ main {
         height: 300px;
         width: 70%;
     }
+    .imgchica {
+        height: auto;
+        width: auto;
+    }
 }
+
+
+/* carrusel */
 
 #carru {
     display: flex;
@@ -111,14 +106,27 @@ main {
     min-height: 100%;
 }
 
-#contenedorsobrevalores {
-    background-color: rgb(123, 211, 238);
-}
+
+/* page sobre nosotros */
 
 .color {
-    background-color: rgb(110, 199, 211);
+    background-color: rgb(176, 230, 247);
     text-align: center;
 }
+
+.sobrenosotroscontenedores {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.imgchica {
+    height: 150px;
+    width: 150px;
+}
+
+
+/* page afiliados */
 
 .form-afiliarmecontenedor {
     display: flex;
@@ -129,10 +137,6 @@ main {
     border: 5px solid darkcyan;
 }
 
-.datosafiliarme {
-    margin-top: 10px;
-}
-
-.form-control {
-    width: auto;
+.card {
+    margin-bottom: 50px;
 }
