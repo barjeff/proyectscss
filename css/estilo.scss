@@ -1,9 +1,28 @@
+@import "_variables";
+
+/* sass II en page servicios */
+
+$botones: (btn-1:blue, btn-2:rgb(70, 106, 204), btn-3:rgb(152, 231, 255));
+@each $btn,
+$color in $botones {
+    .#{$btn} {
+        background-color: $color;
+    }
+}
+
+
+/* sass en  page sobre nosotros  */
+
+.color {
+    background-color: map-get($map: $botones, $key: btn-3);
+    text-align: center;
+}
+
 nav {
     background-color: rgb(104, 216, 231);
     div {
         div {
-            display: flex;
-            justify-content: center;
+            @extend .flex;
             ul {
                 li {
                     a {
@@ -23,7 +42,7 @@ div {
             div {
                 div {
                     .btn {
-                        background-color: rgb(14, 87, 223);
+                        /*background-color: rgb(14, 87, 223);*/
                         &:hover {
                             background-color: yellow;
                         }
@@ -36,7 +55,7 @@ div {
 
 footer {
     div {
-        background-color: rgb(170, 230, 245);
+        background-color: $color-primario;
         div {
             text-align: center;
             div:hover {
@@ -62,15 +81,64 @@ footer {
 main {
     background-image: url(../img/fondo.png);
     h1 {
+        background-color: rgb(226, 248, 246);
         line-height: 2em;
         text-align: center;
     }
+    /* extend */
     #contacto {
         height: 500px;
-        display: flex;
-        justify-content: center;
+        @extend .flex;
         align-items: center;
     }
+}
+
+
+/* carrusel */
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleControls {
+    width: 70%;
+    min-height: 100%;
+}
+
+
+/* page sobre nosotros */
+
+.sobrenosotroscontenedores {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.imgchica {
+    height: 150px;
+    width: 150px;
+}
+
+
+/* page afiliados */
+
+
+/* extend */
+
+.form-afiliarmecontenedor {
+    @extend .flex;
+    flex-direction: column;
+    background: rgb(203, 241, 248);
+    width: 250px;
+    height: auto;
+    border: 5px solid $color-primario;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card {
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 420px) {
@@ -91,52 +159,4 @@ main {
         height: auto;
         width: auto;
     }
-}
-
-
-/* carrusel */
-
-#carru {
-    display: flex;
-    justify-content: center;
-}
-
-#carouselExampleControls {
-    width: 70%;
-    min-height: 100%;
-}
-
-
-/* page sobre nosotros */
-
-.color {
-    background-color: rgb(176, 230, 247);
-    text-align: center;
-}
-
-.sobrenosotroscontenedores {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px;
-}
-
-.imgchica {
-    height: 150px;
-    width: 150px;
-}
-
-
-/* page afiliados */
-
-.form-afiliarmecontenedor {
-    display: flex;
-    flex-direction: column;
-    background: rgb(203, 241, 248);
-    width: 250px;
-    height: auto;
-    border: 5px solid darkcyan;
-}
-
-.card {
-    margin-bottom: 50px;
 }
