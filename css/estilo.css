@@ -1,6 +1,6 @@
 /* sass II en page servicios */
 .btn-1 {
-  background-color: blue;
+  background-color: #1452d6;
 }
 
 .btn-2 {
@@ -8,13 +8,11 @@
 }
 
 .btn-3 {
-  background-color: #98e7ff;
+  background-color: #89a5f1;
 }
 
-/* sass en  page sobre nosotros  */
-.color {
-  background-color: #98e7ff;
-  text-align: center;
+.card {
+  margin-bottom: 50px;
 }
 
 nav {
@@ -50,107 +48,131 @@ footer div div img {
   width: 70%;
 }
 
-.portal {
-  height: auto;
-}
-
-.portal div .form-control {
-  width: auto;
-}
-
 main {
   background-image: url(../img/fondo.png);
-  /* extend */
 }
 
-main h1 {
-  background-color: #e2f8f6;
+main h1, main .pagesobrenosotrosmain h2, .pagesobrenosotrosmain main h2 {
+  background-color: #c7f3ef;
   line-height: 2em;
   text-align: center;
 }
 
 main #contacto {
-  height: 500px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 600px;
+  align-items: center;
 }
 
-/* carrusel */
-.flex, nav div div, main #contacto, .form-afiliarmecontenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
+/* carrusel index */
+.flex, nav div div, main #contacto {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
-#carouselExampleControls {
+.flex #carouselExampleControls, nav div div #carouselExampleControls, main #contacto #carouselExampleControls {
   width: 70%;
   min-height: 100%;
 }
 
+/* Page portal de pacientes*/
+.portal {
+  height: 600px;
+}
+
+.portal div div div .correydatos {
+  width: 300px;
+  margin-top: 40px;
+}
+
+.portal div div .form-agendacitas {
+  display: flex;
+  flex-direction: column;
+  background-color: #acf0ea;
+  padding: 40px;
+  margin-top: 40px;
+  width: auto;
+}
+
 /* page sobre nosotros */
-.sobrenosotroscontenedores {
+.pagesobrenosotrosmain h1, .pagesobrenosotrosmain h2 {
+  background-color: #c7f3ef;
+  line-height: 2em;
+  text-align: center;
+}
+
+.pagesobrenosotrosmain .sobrenosotroscontenedores, .pagesobrenosotrosmain .sobrenosotrosvalores {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 20px;
 }
 
-.imgchica {
+.pagesobrenosotrosmain .sobrenosotrosvalores {
+  width: 50%;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores div .color {
+  background-color: #acf0ea;
+  text-align: center;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores div .color .imgchica {
   height: 150px;
   width: 150px;
 }
 
 /* page afiliados */
-/* extend */
 .form-afiliarmecontenedor {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: flex;
+  flex-direction: column;
   background: #cbf1f8;
-  width: 250px;
+  width: 50%;
   height: auto;
   border: 5px solid #aae6f5;
   margin-bottom: 20px;
   margin-top: 10px;
 }
 
-.card {
-  margin-bottom: 50px;
+/* page contactos*/
+.contact {
+  text-align: center;
+}
+
+.contact .btncolor {
+  display: block;
+  background-color: #79f1f1;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 420px) {
   #contacto {
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   #carouselExampleControls {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     height: 300px;
     width: 70%;
   }
   .imgchica {
     height: auto;
+    width: 130px;
+  }
+  .form-agendacitas {
     width: auto;
   }
+  .correydatos {
+    width: auto;
+    margin-top: 0;
+  }
+  .portal {
+    height: auto;
+  }
+  .imgcontacto {
+    height: 100px;
+    width: 100px;
+  }
 }
-/*# sourceMappingURL=estilo.css.map */

@@ -2,7 +2,7 @@
 
 /* sass II en page servicios */
 
-$botones: (btn-1:blue, btn-2:rgb(70, 106, 204), btn-3:rgb(152, 231, 255));
+$botones: (btn-1:rgb(20, 82, 214), btn-2:rgb(70, 106, 204), btn-3:rgb(137, 165, 241));
 @each $btn,
 $color in $botones {
     .#{$btn} {
@@ -10,12 +10,8 @@ $color in $botones {
     }
 }
 
-
-/* sass en  page sobre nosotros  */
-
-.color {
-    background-color: map-get($map: $botones, $key: btn-3);
-    text-align: center;
+.card {
+    margin-bottom: 50px;
 }
 
 nav {
@@ -69,76 +65,114 @@ footer {
     }
 }
 
-.portal {
-    height: auto;
-    div {
-        .form-control {
-            width: auto;
-        }
-    }
-}
-
 main {
     background-image: url(../img/fondo.png);
     h1 {
-        background-color: rgb(226, 248, 246);
+        background-color: rgb(199, 243, 239);
         line-height: 2em;
         text-align: center;
     }
-    /* extend */
     #contacto {
-        height: 500px;
+        height: 600px;
         @extend .flex;
         align-items: center;
     }
 }
 
 
-/* carrusel */
+/* carrusel index */
 
 .flex {
     display: flex;
     justify-content: center;
+    #carouselExampleControls {
+        width: 70%;
+        min-height: 100%;
+    }
 }
 
-#carouselExampleControls {
-    width: 70%;
-    min-height: 100%;
+
+/* Page portal de pacientes*/
+
+.portal {
+    height: 600px;
+    div {
+        div {
+            div {
+                .correydatos {
+                    width: 300px;
+                    margin-top: 40px;
+                }
+            }
+            .form-agendacitas {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(172, 240, 234);
+                padding: 40px;
+                margin-top: 40px;
+                width: auto;
+            }
+        }
+    }
 }
 
 
 /* page sobre nosotros */
 
-.sobrenosotroscontenedores {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px;
-}
-
-.imgchica {
-    height: 150px;
-    width: 150px;
+.pagesobrenosotrosmain {
+    h1 {
+        background-color: rgb(199, 243, 239);
+        line-height: 2em;
+        text-align: center;
+    }
+    .sobrenosotroscontenedores {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    h2 {
+        @extend h1;
+    }
+    .sobrenosotrosvalores {
+        @extend .sobrenosotroscontenedores;
+        width: 50%;
+        div {
+            .color {
+                background-color: rgb(172, 240, 234);
+                text-align: center;
+                .imgchica {
+                    height: 150px;
+                    width: 150px;
+                }
+            }
+        }
+    }
 }
 
 
 /* page afiliados */
 
-
-/* extend */
-
 .form-afiliarmecontenedor {
-    @extend .flex;
+    display: flex;
     flex-direction: column;
     background: rgb(203, 241, 248);
-    width: 250px;
+    width: 50%;
     height: auto;
     border: 5px solid $color-primario;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
-.card {
-    margin-bottom: 50px;
+
+/* page contactos*/
+
+.contact {
+    text-align: center;
+    .btncolor {
+        display: block;
+        background-color: rgb(121, 241, 241);
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -157,6 +191,20 @@ main {
     }
     .imgchica {
         height: auto;
+        width: 130px;
+    }
+    .form-agendacitas {
         width: auto;
+    }
+    .correydatos {
+        width: auto;
+        margin-top: 0;
+    }
+    .portal {
+        height: auto;
+    }
+    .imgcontacto {
+        height: 100px;
+        width: 100px;
     }
 }
