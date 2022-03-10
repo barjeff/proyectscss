@@ -1,0 +1,103 @@
+@import "_variables";
+@import "_pagecontactos";
+@import "_pageafiliados";
+@import "_portaldepacientes";
+@import "_pagesobrenosotros";
+@import "_pageservicios";
+nav {
+    background-color: map-get($map: $botones, $key: btn-3);
+    div {
+        div {
+            @extend .flex;
+            ul {
+                li {
+                    a {
+                        &:hover {
+                            background-color: lightcyan;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    background-image: url(../img/fondo.png);
+    h1 {
+        background-color: $color-titulosh;
+        line-height: 2em;
+        text-align: center;
+    }
+    #contacto {
+        height: 550px;
+        @extend .flex;
+        align-items: center;
+    }
+}
+
+footer {
+    div {
+        background-color: $color-primario;
+        div {
+            text-align: center;
+            div:hover {
+                background-color: lightcyan;
+            }
+            img {
+                height: 70%;
+                width: 70%;
+            }
+        }
+    }
+}
+
+
+/* carrusel index */
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.mainindex {
+    @extend .flex;
+    #carouselExampleControls {
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #contacto {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #carouselExampleControls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 70%;
+    }
+    .imgchica {
+        height: auto;
+        width: 130px;
+    }
+    .form-agendacitas {
+        width: auto;
+    }
+    .correydatos {
+        width: auto;
+        margin-top: 0;
+    }
+    .portal {
+        height: auto;
+    }
+    .imgcontacto {
+        height: 70px;
+        width: 70px;
+    }
+}

@@ -51,54 +51,56 @@
         </nav>
     </header>
     <main class="portal">
-        <!--formulario inicio de sesion-->
-        <h1 class="animate_animated animate__heartBeat centrarh ">Portal de pacientes</h1>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-sm-12">
-                    <form class="correydatos">
-                        <div class="mb-3 ">
-                            <label for="exampleInputEmail1 " class="form-label ">Email </label>
-                            <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp ">
-                            <div id="emailHelp " class="form-text ">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3 ">
-                            <label for="exampleInputPassword1 " class="form-label ">Contrasña</elabel>
+        <section>
+            <!--formulario inicio de sesion-->
+            <h1>Portal de pacientes</h1>
+            <div class="container correo">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-12">
+                        <form class="correydatos">
+                            <div class="mb-3 ">
+                                <label for="exampleInputEmail1 " class="form-label ">Email </label>
+                                <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp ">
+                                <div id="emailHelp " class="form-text ">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="exampleInputPassword1 " class="form-label ">Contrasña</elabel>
               <input type="password " class="form-control " id="exampleInputPassword1 ">
                 </div>
                 <div class="mb-3 form-check ">
               <input type="checkbox " class="form-check-input " id="exampleCheck1 ">
               <label class="form-check-label " for="exampleCheck1 ">Check me out</label>
-                        </div>
-                        <button type="submit " class="btn btn-primary ">Submit</button>
-                    </form>
-                </div>
-                <div class="col-lg-6 col-sm-12  form-agendacitas">
-                    <h2>Agende una Cita medica</h2>
-                    <p>Especialidad</p>
-                    <select name="ESPECIALIDADES">
+                            </div>
+                            <button type="submit " class="btn btn-primary ">Submit</button>
+                        </form>
+                    </div>
+                    <!--formulario Agendar citas-->
+                    <div class="col-lg-6 col-sm-12  form-agendacitas">
+                        <h2>Agende una Cita medica</h2>
+                        <p>Especialidad</p>
+                        <select name="ESPECIALIDADES">
                 <option value="cardiologia">cardiologia</option>
                 <option value="cirugia">cirugia</option>
                 <option value="pediatria">pediatria</option>
                 <option value="oncologia">oncologia</option>
                     </select>
-                    <p>Medicos tratante</p>
-                    <select name="Doctores"> 
+                        <p>Medicos tratante</p>
+                        <select name="Doctores"> 
                 <option value="cardiologia">jefferson manuel</option>
                 <option value="cirugia">jefferson magallanes</option>
                 <option value="pediatria">jefferson barboza</option>
                  </select>
-                    <form action="">
-                        <input type="date">
-                        <input type="time">
-                        <input type="button" value="confirmar">
-                        <input type="reset" name="">
-                        <input type="submit">
-                    </form>
+                        <form action="">
+                            <input type="date">
+                            <input type="time">
+                            <input type="button" value="confirmar">
+                            <input type="reset" name="">
+                            <input type="submit">
+                        </form>
+                    </div>
                 </div>
-
             </div>
-        </div>
+        </section>
     </main>
     <footer class="gridfooterindex ">
         <div class="container-fluid ">

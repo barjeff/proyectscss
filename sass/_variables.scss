@@ -1,0 +1,10 @@
+$botones: (btn-1:rgb(82, 243, 230), btn-2:rgb(62, 231, 195), btn-3:rgb(104, 216, 231));
+@each $btn,
+$color in $botones {
+    .#{$btn} {
+        background-color: $color;
+    }
+}
+
+$color-primario:rgb(170, 230, 245);
+$color-titulosh:rgb(199, 243, 239);

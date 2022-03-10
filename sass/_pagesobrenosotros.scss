@@ -1,0 +1,54 @@
+/* page sobre nosotros */
+
+@import "_variables";
+.pagesobrenosotrosmain {
+    h1 {
+        background-color: $color-titulosh;
+        line-height: 2em;
+        text-align: center;
+    }
+    .sobrenosotroscontenedores {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        div {
+            div {
+                h3 {
+                    margin: 10px;
+                }
+                p {
+                    margin: 20px;
+                }
+            }
+        }
+    }
+    h2 {
+        @extend h1;
+    }
+    .sobrenosotrosvalores {
+        @extend .sobrenosotroscontenedores;
+        width: 70%;
+        div {
+            .color {
+                background-color: rgb(172, 240, 234);
+                text-align: center;
+                h3 {
+                    padding: 5px;
+                    margin: 10px;
+                }
+                p {
+                    margin: 10px;
+                    text-align: center;
+                    &:hover {
+                        background-color: white;
+                    }
+                }
+                .imgchica {
+                    height: 150px;
+                    width: 150px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}

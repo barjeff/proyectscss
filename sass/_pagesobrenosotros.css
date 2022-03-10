@@ -1,0 +1,61 @@
+/* page sobre nosotros */
+.btn-1 {
+  background-color: #52f3e6;
+}
+
+.btn-2 {
+  background-color: #3ee7c3;
+}
+
+.btn-3 {
+  background-color: #68d8e7;
+}
+
+.pagesobrenosotrosmain h1, .pagesobrenosotrosmain h2 {
+  background-color: #c7f3ef;
+  line-height: 2em;
+  text-align: center;
+}
+
+.pagesobrenosotrosmain .sobrenosotroscontenedores, .pagesobrenosotrosmain .sobrenosotrosvalores {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.pagesobrenosotrosmain .sobrenosotroscontenedores div div h3, .pagesobrenosotrosmain .sobrenosotrosvalores div div h3 {
+  margin: 10px;
+}
+
+.pagesobrenosotrosmain .sobrenosotroscontenedores div div p, .pagesobrenosotrosmain .sobrenosotrosvalores div div p {
+  margin: 20px;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores {
+  width: 70%;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores div .color {
+  background-color: #acf0ea;
+  text-align: center;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores div .color h3 {
+  padding: 5px;
+  margin: 10px;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores div .color p {
+  margin: 10px;
+  text-align: center;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores div .color p:hover {
+  background-color: white;
+}
+
+.pagesobrenosotrosmain .sobrenosotrosvalores div .color .imgchica {
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+}

@@ -53,33 +53,66 @@
 
     </header>
     <main>
-        <h1 class="animate_animated animate__heartBeat centrarh ">Contactenos</h1>
-        <div class="container" id="contacto">
-            <div class="row ">
-                <div class="col">
-                    <div class="contact">
-                        <h3 class="titulomodelo">Instagram </h3>
-                        <img class="imgcontacto animate_animated animate__heartBeat" src="../img/instagram.jpg" alt="logo instagram" width="200px" height="200px">
-                        <a href="https://www.instagram.com/centromedico.cagua/?hl=en" class="btn btncolor" target="_blank">@centromedico.cagua</a>
+        <section>
+            <!-- redes sociales contenedor-->
+            <h1>Contactenos</h1>
+            <div class="container" id="contacto">
+                <div class="row ">
+                    <div class="col">
+                        <div class="contact">
+                            <h3 class="titulomodelo">Instagram </h3>
+                            <img class="imgcontacto animate_animated animate__heartBeat" src="../img/instagram.jpg" alt="logo instagram" width="200px" height="200px">
+                            <a href="https://www.instagram.com/centromedico.cagua/?hl=en" class="btn btn-1 btncolor" target="_blank">@centromedico.cagua</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="contact">
-                        <h3 class="titulomodelo">Twitter</h3>
-                        <img class="imgcontacto animate_animated animate__heartBeat" src="../img/twitter.jpg" alt="logo twitter" width="200px" height="200px">
-                        <a href="https://twitter.com/Centromedicocagua" class="btn btncolor" target="_blank">@Centromedicocagua</a>
+                    <div class="col">
+                        <div class="contact">
+                            <h3 class="titulomodelo">Twitter</h3>
+                            <img class="imgcontacto animate_animated animate__heartBeat" src="../img/twitter.jpg" alt="logo twitter" width="200px" height="200px">
+                            <a href="https://twitter.com/Centromedicocagua" class="btn btn-2 btncolor" target="_blank">@Centromedicocagua</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="contact">
-                        <h3 class="titulomodelo">Telefono</h3>
-                        <img class="imgcontacto animate_animated animate__heartBeat" src="../img/telefono.jpg" alt="logo contacto" width="200px" height="200px">
-                        <a href="#" class="btn btncolor">+58(244)3900399</a>
+                    <div class="col">
+                        <div class="contact">
+                            <h3 class="titulomodelo">Telefono</h3>
+                            <img class="imgcontacto animate_animated animate__heartBeat" src="../img/telefono.jpg" alt="logo contacto" width="200px" height="200px">
+                            <a href="#" class="btn  btn-3 btncolor">+58(244)3900399</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <!---Formulario quiro informarme--->
+            <div class="container-fluid quieroinformarme">
+                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2 hdoscontacto">¡Quiero estar informado!</h2>
+                <div class="row justify-content-center">
+                    <div class="media-container-column col-lg-8">
+                        <form>
+                            <div class="row">
+                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12"></div>
+                                <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                                </div>
+                            </div>
+                            <div class="dragArea row">
+                                <div class="col-md-4  form-group" data-for="name">
+                                    <label for="name-form1-6a" class="form-control-label mbr-fonts-style display-7">Nombre&nbsp;</label>
+                                    <input type="text" name="name" required="required" class="form-control display-7" placeholder="Nombre y Apellido" id="name-form1-6a">
+                                </div>
+                                <div class="col-md-4  form-group" data-for="email">
+                                    <label for="email-form1-6a" class="form-control-label mbr-fonts-style display-7">Correo Electrónico</label>
+                                    <input type="email" name="email" required="required" class="form-control display-7" placeholder="correo@example.com" id="email-form1-6a">
+                                </div>
 
+                                <div data-for="message" class="col-md-10 form-group">
+                                    <label for="message-form1-6a" class="form-control-label mbr-fonts-style display-7">Mensaje</label>
+                                    <textarea name="message" class="form-control display-7" placeholder="¿Qué te gustaría saber?" id="message-form1-6a"></textarea>
+                                </div>
+                                <div class="col-md-12 input-group-btn align-center"><button type="submit" class="btn btn-primary btn-3 display-4">Enviar</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="gridfooterindex">
         <div class="container-fluid">

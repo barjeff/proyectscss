@@ -1,0 +1,46 @@
+/* Page portal de pacientes*/
+
+@import "_variables";
+.portal {
+    height: 600px;
+    div {
+        div {
+            div {
+                .correydatos {
+                    width: 300px;
+                    margin-top: 40px;
+                    .btn {
+                        background: linear-gradient(-45deg, #3f00b5, #1cbfdb, #33e9d7, #3f00b5);
+                        background-size: 800% 400%;
+                        padding: 1em 2em;
+                        display: inline-block;
+                        border: none;
+                        border-radius: 10px;
+                        font-size: 17px;
+                        font-weight: 700;
+                        color: white;
+                        transition: all .5s ease-in-out;
+                        animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+                        margin: 20px;
+                        &:hover {
+                            animation: gradient 3s infinite;
+                            transform: scale(1.05);
+                        }
+                        &:active {
+                            animation: gradient 3s infinite;
+                            transform: scale(0.8);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .form-agendacitas {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(172, 235, 240);
+        padding: 40px;
+        margin-top: 40px;
+        width: auto;
+    }
+}

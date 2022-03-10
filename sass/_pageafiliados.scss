@@ -1,0 +1,13 @@
+/* page Afialiados*/
+
+@import "_variables";
+.form-afiliarmecontenedor {
+    display: flex;
+    flex-direction: column;
+    background: rgb(203, 241, 248);
+    width: 50%;
+    height: auto;
+    border: 5px solid $color-primario;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
