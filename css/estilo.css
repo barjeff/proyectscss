@@ -1,424 +1,445 @@
 .btn-1 {
-  background-color: #52f3e6;
+    background-color: #52f3e6;
 }
 
 .btn-2 {
-  background-color: #3ee7c3;
+    background-color: #3ee7c3;
 }
 
 .btn-3 {
-  background-color: #68d8e7;
+    background-color: #68d8e7;
 }
+
 
 /* page contactos*/
+
 .btn-1 {
-  background-color: #52f3e6;
+    background-color: #52f3e6;
 }
 
 .btn-2 {
-  background-color: #3ee7c3;
+    background-color: #3ee7c3;
 }
 
 .btn-3 {
-  background-color: #68d8e7;
+    background-color: #68d8e7;
 }
 
 .contact {
-  text-align: center;
+    text-align: center;
 }
 
 .contact .imgcontacto {
-  height: 100px;
-  width: 100px;
+    height: 100px;
+    width: 100px;
 }
 
 .contact .btncolor {
-  display: block;
+    display: block;
 }
 
 .quieroinformarme {
-  background-color: white;
+    background-color: white;
 }
 
 .quieroinformarme h2 {
-  font-weight: bold;
-  color: #17c9a2;
-  background-color: white;
-  text-align: center;
+    font-weight: bold;
+    color: #17c9a2;
+    background-color: white;
+    text-align: center;
 }
 
 .quieroinformarme div div form div .btn {
-  background: linear-gradient(-45deg, #3f00b5, #1cbfdb, #33e9d7, #3f00b5);
-  background-size: 800% 400%;
-  padding: 1em 2em;
-  display: inline-block;
-  border: none;
-  border-radius: 10px;
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
-          animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
-  margin: 20px;
+    background: linear-gradient(-45deg, #3f00b5, #1cbfdb, #33e9d7, #3f00b5);
+    background-size: 800% 400%;
+    padding: 1em 2em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+    animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+    margin: 20px;
 }
 
 .quieroinformarme div div form div .btn:hover {
-  -webkit-animation: gradient 3s infinite;
-          animation: gradient 3s infinite;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .quieroinformarme div div form div .btn:active {
-  -webkit-animation: gradient 3s infinite;
-          animation: gradient 3s infinite;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
+
 /* page Afialiados*/
+
 .btn-1 {
-  background-color: #52f3e6;
+    background-color: #52f3e6;
 }
 
 .btn-2 {
-  background-color: #3ee7c3;
+    background-color: #3ee7c3;
 }
 
 .btn-3 {
-  background-color: #68d8e7;
+    background-color: #68d8e7;
 }
 
 .form-afiliarmecontenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background: #cbf1f8;
-  width: 50%;
-  height: auto;
-  border: 5px solid #aae6f5;
-  margin-bottom: 20px;
-  margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #cbf1f8;
+    width: 50%;
+    height: auto;
+    border: 5px solid #aae6f5;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
+
 /* Page portal de pacientes*/
+
 .btn-1 {
-  background-color: #52f3e6;
+    background-color: #52f3e6;
 }
 
 .btn-2 {
-  background-color: #3ee7c3;
+    background-color: #3ee7c3;
 }
 
 .btn-3 {
-  background-color: #68d8e7;
+    background-color: #68d8e7;
 }
 
 .portal {
-  height: 600px;
+    height: 600px;
 }
 
 .portal div div div .correydatos {
-  width: 300px;
-  margin-top: 40px;
+    width: 300px;
+    margin-top: 40px;
 }
 
 .portal div div div .correydatos .btn {
-  background: linear-gradient(-45deg, #3f00b5, #1cbfdb, #33e9d7, #3f00b5);
-  background-size: 800% 400%;
-  padding: 1em 2em;
-  display: inline-block;
-  border: none;
-  border-radius: 10px;
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
-          animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
-  margin: 20px;
+    background: linear-gradient(-45deg, #3f00b5, #1cbfdb, #33e9d7, #3f00b5);
+    background-size: 800% 400%;
+    padding: 1em 2em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+    animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+    margin: 20px;
 }
 
 .portal div div div .correydatos .btn:hover {
-  -webkit-animation: gradient 3s infinite;
-          animation: gradient 3s infinite;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .portal div div div .correydatos .btn:active {
-  -webkit-animation: gradient 3s infinite;
-          animation: gradient 3s infinite;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 .portal .form-agendacitas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #acebf0;
-  padding: 40px;
-  margin-top: 40px;
-  width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #acebf0;
+    padding: 40px;
+    margin-top: 40px;
+    width: auto;
 }
 
+
 /* page sobre nosotros */
+
 .btn-1 {
-  background-color: #52f3e6;
+    background-color: #52f3e6;
 }
 
 .btn-2 {
-  background-color: #3ee7c3;
+    background-color: #3ee7c3;
 }
 
 .btn-3 {
-  background-color: #68d8e7;
+    background-color: #68d8e7;
 }
 
-.pagesobrenosotrosmain h1, .pagesobrenosotrosmain h2 {
-  background-color: #c7f3ef;
-  line-height: 2em;
-  text-align: center;
+.pagesobrenosotrosmain h1,
+.pagesobrenosotrosmain h2 {
+    background-color: #c7f3ef;
+    line-height: 2em;
+    text-align: center;
 }
 
-.pagesobrenosotrosmain .sobrenosotroscontenedores, .pagesobrenosotrosmain .sobrenosotrosvalores {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 20px;
+.pagesobrenosotrosmain .sobrenosotroscontenedores,
+.pagesobrenosotrosmain .sobrenosotrosvalores {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 
-.pagesobrenosotrosmain .sobrenosotroscontenedores div div h3, .pagesobrenosotrosmain .sobrenosotrosvalores div div h3 {
-  margin: 10px;
+.pagesobrenosotrosmain .sobrenosotroscontenedores div div h3,
+.pagesobrenosotrosmain .sobrenosotrosvalores div div h3 {
+    margin: 10px;
 }
 
-.pagesobrenosotrosmain .sobrenosotroscontenedores div div p, .pagesobrenosotrosmain .sobrenosotrosvalores div div p {
-  margin: 20px;
+.pagesobrenosotrosmain .sobrenosotroscontenedores div div p,
+.pagesobrenosotrosmain .sobrenosotrosvalores div div p {
+    margin: 20px;
 }
 
 .pagesobrenosotrosmain .sobrenosotrosvalores {
-  width: 70%;
+    width: 70%;
 }
 
 .pagesobrenosotrosmain .sobrenosotrosvalores div .color {
-  background-color: #acf0ea;
-  text-align: center;
+    background-color: #acf0ea;
+    text-align: center;
 }
 
 .pagesobrenosotrosmain .sobrenosotrosvalores div .color h3 {
-  padding: 5px;
-  margin: 10px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .pagesobrenosotrosmain .sobrenosotrosvalores div .color p {
-  margin: 10px;
-  text-align: center;
+    margin: 10px;
+    text-align: center;
 }
 
 .pagesobrenosotrosmain .sobrenosotrosvalores div .color p:hover {
-  background-color: white;
+    background-color: white;
 }
 
 .pagesobrenosotrosmain .sobrenosotrosvalores div .color .imgchica {
-  height: 150px;
-  width: 150px;
-  padding: 15px;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
 }
 
 .btn-1 {
-  background-color: #52f3e6;
+    background-color: #52f3e6;
 }
 
 .btn-2 {
-  background-color: #3ee7c3;
+    background-color: #3ee7c3;
 }
 
 .btn-3 {
-  background-color: #68d8e7;
+    background-color: #68d8e7;
 }
 
 div div div div {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 div div div div img {
-  padding: 20px;
+    padding: 20px;
 }
 
 div div div div div h5 {
-  margin: 10px;
+    margin: 10px;
 }
 
 div div div div div h5:hover {
-  color: #68d8e7;
+    color: #68d8e7;
 }
 
 div div div div div .btn {
-  background: linear-gradient(-45deg, #3f00b5, #1cbfdb, #33e9d7, #3f00b5);
-  background-size: 800% 400%;
-  padding: 1em 2em;
-  display: inline-block;
-  border: none;
-  border-radius: 10px;
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
-          animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
-  margin: 20px;
+    background: linear-gradient(-45deg, #3f00b5, #1cbfdb, #33e9d7, #3f00b5);
+    background-size: 800% 400%;
+    padding: 1em 2em;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+    animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+    margin: 20px;
 }
 
 div div div div div .btn:hover {
-  -webkit-animation: gradient 3s infinite;
-          animation: gradient 3s infinite;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 div div div div div .btn:active {
-  -webkit-animation: gradient 3s infinite;
-          animation: gradient 3s infinite;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+    -webkit-animation: gradient 3s infinite;
+    animation: gradient 3s infinite;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 @-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 nav {
-  background-color: #68d8e7;
+    background-color: #68d8e7;
 }
 
 nav div div ul li a:hover {
-  background-color: lightcyan;
+    background-color: lightcyan;
 }
 
 main {
-  background-image: url(../img/fondo.png);
+    background-image: url(../img/fondo.png);
 }
 
-main h1, main .pagesobrenosotrosmain h2, .pagesobrenosotrosmain main h2 {
-  background-color: #c7f3ef;
-  line-height: 2em;
-  text-align: center;
+main h1,
+main .pagesobrenosotrosmain h2,
+.pagesobrenosotrosmain main h2 {
+    background-color: #c7f3ef;
+    line-height: 2em;
+    text-align: center;
 }
 
 main #contacto {
-  height: 550px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    height: 550px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 footer div {
-  background-color: #aae6f5;
+    background-color: #aae6f5;
 }
 
 footer div div {
-  text-align: center;
+    text-align: center;
 }
 
 footer div div div:hover {
-  background-color: lightcyan;
+    background-color: lightcyan;
 }
 
 footer div div img {
-  height: 70%;
-  width: 70%;
+    height: 70%;
+    width: 70%;
 }
 
+
 /* carrusel index */
-.flex, nav div div, main #contacto, .mainindex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+
+.flex,
+nav div div,
+main #contacto,
+.mainindex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .mainindex #carouselExampleControls {
-  width: 90%;
-  height: 50%;
+    width: 100%;
+    height: 50%;
 }
 
 @media screen and (max-width: 420px) {
-  #contacto {
-    height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
+    #contacto {
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
+        justify-content: center;
+        -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-  }
-  #carouselExampleControls {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
+        align-items: center;
+    }
+    #carouselExampleControls {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
+        justify-content: center;
+        -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    height: 300px;
-    width: 70%;
-  }
-  .imgchica {
-    height: auto;
-    width: 130px;
-  }
-  .form-agendacitas {
-    width: auto;
-  }
-  .correydatos {
-    width: auto;
-    margin-top: 0;
-  }
-  .portal {
-    height: auto;
-  }
-  .imgcontacto {
-    height: 70px;
-    width: 70px;
-  }
+        align-items: center;
+        height: 300px;
+        width: 70%;
+    }
+    .imgchica {
+        height: auto;
+        width: 130px;
+    }
+    .form-agendacitas {
+        width: auto;
+    }
+    .correydatos {
+        width: auto;
+        margin-top: 0;
+    }
+    .portal {
+        height: auto;
+    }
+    .imgcontacto {
+        height: 70px;
+        width: 70px;
+    }
 }
+
+
 /*# sourceMappingURL=estilo.css.map */

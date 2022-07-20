@@ -60,12 +60,24 @@ footer {
     justify-content: center;
 }
 
-.mainindex {
-    @extend .flex;
-    #carouselExampleControls {
-        width: 90%;
-        height: 50%;
-    }
+#teAyudamos {
+        height: 90vh;
+        width: 100%;
+      background: center center / cover no-repeat fixed;
+        .carousel {
+            height: 100%;
+            .carousel-inner {
+                height: 100%;
+                .carousel-item {
+                    height: 100%;
+                    .imgcarrus {
+                    height: 100%;
+                        width: 100%  ; 
+                    }
+                }
+            }
+        }
+       
 }
 
 @media screen and (max-width: 420px) {
@@ -79,7 +91,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 300px;
+        height: 70%;
         width: 70%;
     }
     .imgchica {
@@ -101,3 +113,5 @@ footer {
         width: 70px;
     }
 }
+
+
