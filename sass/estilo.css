@@ -359,7 +359,7 @@ footer div div img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height: 100%;
     width: 70%;
   }
   .imgchica {
@@ -379,5 +379,11 @@ footer div div img {
   .imgcontacto {
     height: 70px;
     width: 70px;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .imgcarrus {
+    height: 100vh !important;
   }
 }
